@@ -12,6 +12,10 @@ Hooks.on('globalAmbientVolumeChanged', (volume) => {
 
 const ssApp = new SoundScapesApp()
 
+window.ssOpen = () => {
+    ssApp.render(true);
+}
+
 Hooks.on('renderSidebarTab', (app, html) => {
     console.log('sidebar', app);
     if (app.options.id !== 'playlists' && app.id !== 'playlists') return;
