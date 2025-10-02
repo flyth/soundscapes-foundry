@@ -1,0 +1,35 @@
+{
+  "id": "soundscapes",
+  "description": "yo",
+  "title": "SoundScapes",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "styles": [
+    "css/main.css"
+  ],
+  "scripts": [
+    "./scripts/mithril.js"
+  ],
+  "esmodules": [
+    "./scripts/main.js"
+  ],
+  "socket": true,
+  "flags": {
+    "hotReload": {
+      "extensions": ["css", "html", "hbs", "json"],
+      "paths": ["templates", "css"]
+    }
+  },
+  "authors": [
+    {
+      "name": "flyth",
+      "flags": {}
+    }
+  ],
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "version": "#{VERSION}#",
+  "url": "#{URL}#"
+}

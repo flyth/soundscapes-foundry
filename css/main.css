@@ -1,0 +1,69 @@
+/*@font-face {*/
+/*    font-family: 'soundscapes';*/
+/*    src: url('../fonts/SairaExtraCondensed-Regular.woff');*/
+/*}*/
+
+#soundscapes-app-content {
+    /*font-family: 'soundscapes', sans-serif;*/
+    input {
+        margin-bottom: 10px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        padding: 5px;
+        border: 1px solid rgba(0,0,0,0.4);
+        margin-bottom: 2px;
+        margin-right: 3px;
+        cursor: pointer;
+    }
+    .part {
+        padding: 3px;
+    }
+
+    .soundscapes-elements {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-gap: 10px;
+        margin-top: 14px;
+    }
+
+    .soundscapes-element {
+        cursor: pointer;
+        overflow: hidden;
+        height: 96px;
+        text-align: center;
+    }
+
+    .soundscapes-stop-btn {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        width: 24px;
+    }
+
+    .soundscapes-icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: 50% 50%;
+        margin: 0 auto;
+    }
+
+    .soundscapes-icon-sample {
+        width: 64px;
+        height: 64px;
+        border-radius: 10%;
+        background-size: cover;
+        background-position: 50% 50%;
+        margin: 0 auto;
+    }
+
+    h3 {
+        margin-top: 14px;
+    }
+}
