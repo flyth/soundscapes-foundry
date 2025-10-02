@@ -43,7 +43,7 @@ jobs:
           DOWNLOAD: ${{ env.release_module_url }}
 
       - name: Create zip archive
-        run: zip -r ./module.zip module.json *.png *.jpg *.webp *.pdf packs/ assets/ scripts/ lang/ src/ styles/ templates/ README.md
+        run: zip -r ./module.zip module.json *.png *.jpg *.webp *.pdf css/ fonts/ packs/ assets/ scripts/ lang/ src/ styles/ templates/ README.md
 
       - name: Update release with files
         id: create_version_release
